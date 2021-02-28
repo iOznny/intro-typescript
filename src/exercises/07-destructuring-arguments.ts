@@ -15,7 +15,7 @@ const tableta: Product = {
     price: 100
 }
 
-function calISV(products: Product[]): [number, number] {
+export function calISV(products: Product[]): [number, number] {
     let total = 0;
 
     products.forEach(({ price }) => {
@@ -25,8 +25,8 @@ function calISV(products: Product[]): [number, number] {
     return [total, total * 0.15];
 }
 
-const products = [telefono, tableta];
+/* const products = [telefono, tableta];
 const [ total, isv ] = calISV(products);
 
 console.log('Total: ', total);
-console.log('ISV: ', isv);
+console.log('ISV: ', isv); */
