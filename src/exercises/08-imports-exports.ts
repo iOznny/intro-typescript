@@ -14,6 +14,5 @@ const carShopping: Product[] = [
 
 // Desestructuramos el arreglo.
 const [ total, isv ] = calISV(carShopping);
-
 console.log('Total: ', total );
 console.log('ISV: ', isv);

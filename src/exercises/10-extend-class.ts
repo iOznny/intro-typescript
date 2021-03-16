@@ -4,7 +4,6 @@
  * El extender una clase es el poder
  * agregar ciertas funcionalidades, propiedades a una clase existente.
  */
-
 class NormalPerson {
     constructor(
         public name: string,
@@ -26,4 +25,3 @@ class Heroe2 extends NormalPerson {
 
 const iroman_per = new Heroe2('Ironman', 45, 'Tony');
 console.log(iroman_per);
-
