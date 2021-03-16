@@ -5,7 +5,6 @@
  * Las clases permiten crear instancias.
  * Las interfaces no se pueden definir como deben funcionar los setters o getters.
  */
-
 class Heroe {
     // Niveles de acceso pueden ser private, public o static.
     /* private alterEgo: string;

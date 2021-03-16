@@ -1,5 +1,4 @@
 // Encadenamiento Opcional
-
 interface Passenger {
     name: string;
     sons?: string[];

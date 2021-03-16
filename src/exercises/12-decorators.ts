@@ -5,7 +5,6 @@
  * el momento que son definidas.
  * Un decorador no es más que una función que expande su clase.
 */
-
 function classDecorator<T extends { new (...args: any[]): {} }>(constructor: T) {
     return class extends constructor {
       newProperty = "new property";
@@ -23,7 +22,6 @@ class superClass {
     }
 }
 
-console.log(superClass);
-
 const myClass = new superClass();
+console.log(superClass);
 console.log(myClass.myProperty);
