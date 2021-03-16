@@ -1,6 +1,5 @@
 // La desestructuración de objetos permite 
 // la extraccion de promiedades y metodes de un objeto.
-
 interface Player {
     volume: number;
     second: number;
@@ -26,8 +25,6 @@ const player: Player = {
 // Creación de constantes en base al Player
 const { volume, second, song, details } = player
 
-
-
 // Desestructuración de un objeto en base a la contante de details: Details
 const { author, year } = details
 
@@ -38,7 +35,6 @@ const { author, year } = details
 * { details: { year: newVarYear } }
 */
 const { details: { author: newVarAuthor, year: newVarYear } } = player
-
 
 // Impresión del Objecto.
 console.log('Volumen actual: ', volume);
