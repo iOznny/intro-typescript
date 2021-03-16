@@ -1,4 +1,3 @@
-
 // Interfaces
 interface AddressSuperHeroe {
     street: string;

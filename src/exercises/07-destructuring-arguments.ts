@@ -1,5 +1,4 @@
 // Desestructuración de Argumentos.
-
 export interface Product {
     desc: string;
     price: number;
@@ -27,6 +26,5 @@ export function calISV(products: Product[]): [number, number] {
 
 /* const products = [telefono, tableta];
 const [ total, isv ] = calISV(products);
-
 console.log('Total: ', total);
 console.log('ISV: ', isv); */
