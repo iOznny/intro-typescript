@@ -19,4 +19,3 @@ person.hometown = 'Pueblo Natal';
 
 // Console con formato table.
 console.table(person);
-

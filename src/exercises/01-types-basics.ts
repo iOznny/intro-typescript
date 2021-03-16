@@ -9,4 +9,3 @@ let vivo: boolean = true;
 hp = 'full';
 
 console.log(names, hp);
-
